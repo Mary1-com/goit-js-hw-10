@@ -24,7 +24,7 @@ form.addEventListener('submit', e => {
                 position: "topRight",
             });
         })
-        catch (delay => {
+        .catch (delay => {
         iziToast.error({
             message: `❌ Rejected promise in ${delay}ms`,
             position: "topRight",
